@@ -10,9 +10,9 @@
     },
     "authors" : [ 
         {
-            "name" : "Leandro Silva",
-            "email" : "leandro@leandrosilva.info",
-            "homepage" : "http://leandrosilva.info"
+            "name" : "Abel Lopes",
+            "email" : "abel@abellpes.eti.br",
+            "homepage" : "http://abellpes.eti.br"
         } 
     ],
     "keywords" : [ "acplo", "log", "module", "zf2" ],
@@ -28,5 +28,5 @@
     },
     "license" : "BSD-3-Clause",
     "type" : "library",
-    "homepage" : "http://github.com/Lansoweb/AcploLog"
+    "homepage" : "http://github.com/Acplo/AcploLog"
 }

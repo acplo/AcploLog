@@ -25,11 +25,11 @@ use Zend\ServiceManager\ServiceLocatorInterface;
  * Module definition
  *
  * @package AcploLog
- * @author Leandro Silva <leandro@leandrosilva.info>
- * @link http://leandrosilva.info Development Blog
+ * @author Abel Lopes <abel@abellpes.eti.br>
+ * @link http://abellpes.eti.br Development Blog
  * @link http://github.com/acplo/AcploLog for the canonical source repository
  * @copyright Copyright (c) 2015-2020 Abel Lopes (http://www.abellpes.eti.br)
- * @license http://leandrosilva.info/licenca-bsd New BSD license
+ * @license http://abellpes.eti.br/licenca-bsd New BSD license
  */
 class Module implements AutoloaderProviderInterface, LocatorRegisteredInterface
 {
