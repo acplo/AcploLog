@@ -1,0 +1,34 @@
+{
+    "name": "acplo/acplolog",
+    "description": "AcploLog provides some log utility your ZF2 application",
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zendframework": ">=2.3.2,<3.0.0"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master",
+        "doctrine/doctrine-orm-module": "~0.8"
+    },
+    "authors": [
+        {
+            "name": "Abel Lopes",
+            "email": "abel@abellopes.eti.br",
+            "homepage": "http://www.abellopes.eti.br"
+        }
+    ],
+    "keywords": ["acplo", "log", "module", "zf2"],
+    "minimum-stability": "alpha",
+    "autoload": {
+        "psr-0": {
+            "AcploLog\\": "src/"
+        },
+        "classmap": ["./"]
+    },
+    "suggest": {
+        "doctrine/doctrine-module": "doctrine-module if you want to use the SqlLogger",
+        "doctrine/doctrine-orm-module": "doctrine-orm-module if you want to use the EntityLogger"
+    },
+    "license": "BSD-3",
+    "type": "library",
+    "homepage": "http://github.com/acplo/AcploLog"
+}
